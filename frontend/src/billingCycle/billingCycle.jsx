@@ -9,7 +9,6 @@ import TabsHeader from '../common/tab/tabsHeader'
 import TabsContent from '../common/tab/tabsContent'
 import TabHeader from '../common/tab/tabHeader'
 import TabContent from '../common/tab/tabContent'
-import { selectTab, showTabs } from '../common/tab/tabActions'
 import {init, create, update, remove } from './billingCycleActions'
 
 import List from './billingCycleList'
@@ -18,6 +17,7 @@ import Form from './billingCycleForm'
 class BillingCycle extends Component {
 
     componentWillMount() {
+        debugger;
         this.props.init()
     }
 
